@@ -38,8 +38,11 @@ const Dashboard: React.FC = () => {
         style={{ background: 'white' }}
       >
         <Menu mode="vertical" theme="light" defaultSelectedKeys={['1']}>
-          <Menu.Item key="1" icon={<UserOutlined />}>
+          {/* <Menu.Item key="1" icon={<UserOutlined />}>
             Dashboard
+          </Menu.Item> */}
+          <Menu.Item key="2" icon={<UserOutlined />} className='mt-20'>
+            Home
           </Menu.Item>
         </Menu>
       </Sider>
