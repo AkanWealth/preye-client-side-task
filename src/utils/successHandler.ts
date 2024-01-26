@@ -1,5 +1,3 @@
-import Cookies from 'js-cookie';
-
 export type IData = {
   data: {
     message: string;
@@ -15,12 +13,4 @@ export type IData = {
   token: {
     access_token?: string;
   };
-};
-
-export const success = (data: IData) => {
-  if (token?.access_token) {
-    Cookies.set('Authenticated', data?.access_token, { expires: 30 });
-  }
-
-  return data;
 };
