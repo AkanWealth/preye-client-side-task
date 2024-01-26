@@ -1,0 +1,4 @@
+/register /otp 301
+/otp /success 301
+/success /login 301
+/login /dashboard 301
