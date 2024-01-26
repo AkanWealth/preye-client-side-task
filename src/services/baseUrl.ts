@@ -2,8 +2,8 @@ import Cookies from 'js-cookie';
 import axios from "axios";
 import { toast } from 'react-toastify';
 
-const BACKEND_URL  = 'http://localhost:5000/v1/'
-// const BACKEND_URL  = 'https://kiara-ugwu.onrender.com/'
+// const BACKEND_URL  = 'http://localhost:5000/v1/'
+const BACKEND_URL  = 'https://preye-api.onrender.com/v1/'
 interface Iinstance {
   file: boolean;
 }
